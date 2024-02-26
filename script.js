@@ -14,6 +14,10 @@ for (let i = 0; i < lists.length; i++) {
 });
 }
 
+header.addEventListener("mouseover", function() {
+  header.style.cursor = "pointer";
+})
+
 let isHeaderChanged = false;
 
 header.addEventListener("click", function() {
