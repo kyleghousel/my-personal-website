@@ -133,7 +133,7 @@ a:hover {
   padding-left: 20px;
 }
 
-#contact-link {
+.contact-link {
   color: #102F48;
   text-decoration: underline;
 }
