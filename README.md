@@ -1,1 +1,7 @@
 # My Personal Website
+
+This is my personal website submission for the Power Code Academy Prework Project: "Build a Personal Website." The goal of the project was to incorporate aspects of what I learned during the prework phase of my PCA candidacy, and to showcase what I learned on GitHub Pages. The webpage can be accessed [here](https://kyleghousel.github.io/my-personal-website/).
+
+## What I Learned
+
+In the construction of this humble personal webpage, I tried to incorporate as much as I could from the prework content, as well as content I've picked up from my own exploration or linked external resources from the coursework. The HTML structure of the website I approached in a way which would allow me to apply Flexbox to the styling of the site. Shoutout to [Flexbox Froggy](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiO4tTv-smEAxXEEGIAHXdfBJsQFnoECAYQAQ&url=https%3A%2F%2Fflexboxfroggy.com%2F&usg=AOvVaw3eFEzHf_Do9hyIVlpu0QGC&opi=89978449) - a truly fun and effective way to learn a new concept. I've also included a few event listeners using Javascript, namely changing the main header on click, changing the mouse pointer when hovering over the main header, and enlarging the "Portfolio" list components I used. 
