@@ -5,40 +5,108 @@
 }
 
 body {
-  background-color: rgb(240, 186, 120);
+  background-color: #E0E0E0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*border: 3px solid red;*/
 }
 
 #content {
   padding-bottom: 20px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*border: 3px solid red;*/
 }
 
 h1 {
+  color: #102F48;
   text-align: center;
   font-size: 4em;
+  /*border: 3px solid red;*/
+}
+
+.header {
+  color: #102F48;
+  background-color: #DDFE5C;
+  border-radius: 12px 12px 0px 0px;
 }
 
 h2 {
+  width: auto;
   padding-left: 10px;
   padding-top: 15px;
+  padding-bottom: 17px;
   font-size: 2.2em;
+  /*border: 3px solid red;*/
+}
+
+#about-me {
+  border: 10px solid #E0E0E0;
+  border-radius: 24px;
+  background-color: white;
+  width: 100%;
 }
 
 #bio {
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 20px;
   font-size: 1.2em;
+  /*border: 3px solid red;*/
+  color: #102F48;
 }
 
-#list {
+#portfolio {
+  background-color: white;
+  border: 10px solid #E0E0E0;
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+#lists {
   padding-left: 20px;
+  /*border: 3px solid red;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+h4 {
+  font-size: 1.7em;
+  color: #E0E0E0;
+}
+
+.lang-logo {
+  width: 30px;
+  height: auto;
+}
+
+.list-component {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: 8px solid white;
+  border-radius: 24px;
+  background-color: #102F48;
+  list-style: none;
+  width: 200px;
+}
+
+li, a {
+  padding: 4px;
+  color: #DDFE5C;
 }
 
 #footer {
-  background-image: url('./joshua_tree.png');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px;
-  position: fixed;
-  bottom: 0;
+  background-color: #DDFE5C;
 }
