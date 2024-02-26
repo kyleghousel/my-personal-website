@@ -62,7 +62,7 @@ h2 {
   color: #102F48;
 }
 
-#portfolio {
+#portfolio, #contact {
   background-color: white;
   border: 10px solid #E0E0E0;
   border-radius: 24px;
@@ -76,7 +76,6 @@ h2 {
 
 #lists {
   padding-left: 20px;
-  /*border: 3px solid red;*/
   display: flex;
   justify-content: space-around;
 }
@@ -102,11 +101,35 @@ h4 {
   width: 200px;
 }
 
+ul {
+  list-style: none;
+}
+
 li, a {
   padding: 4px;
   color: #DDFE5C;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-#footer {
-  background-color: #DDFE5C;
+a:hover {
+  color: #E0E0E0;
+}
+
+#contact-info {
+  background-color: white;
+  width: 100%;
+  border-radius: 24px;
+}
+
+.list-contact {
+  color: #102F48;
+  font-weight: normal;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#contact-link {
+  color: #102F48;
+  text-decoration: underline;
 }
