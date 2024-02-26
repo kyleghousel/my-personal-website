@@ -20,14 +20,12 @@ header.addEventListener("mouseover", function() {
 
 let isHeaderChanged = false;
 
-header.addEventListener("click", function() {
-  
+header.addEventListener("click", function() { 
   if (isHeaderChanged) {
     header.textContent = "HELLO, WORLD!"
     isHeaderChanged = false;
   } else {
-    header.textContent = "👋🌎";
+    header.textContent = "IT'S ME, KYLE.";
     isHeaderChanged = true;
   }
-
 })

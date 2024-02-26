@@ -11,10 +11,27 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /*border: 3px solid red;*/
+}
+
+h1 {
+  color: #102F48;
+  text-align: center;
+  font-size: 4em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #E0E0E0;
+  padding: 10px 0;
+}
+
+.header {
+  color: #102F48;
+  background-color: #DDFE5C;
+  border-radius: 12px 12px 0px 0px;
 }
 
 #content {
+  padding-top: 6em;
   padding-bottom: 20px;
   width: 1200px;
   display: flex;
@@ -22,19 +39,6 @@ body {
   align-items: center;
   flex-direction: column;
   /*border: 3px solid red;*/
-}
-
-h1 {
-  color: #102F48;
-  text-align: center;
-  font-size: 4em;
-  /*border: 3px solid red;*/
-}
-
-.header {
-  color: #102F48;
-  background-color: #DDFE5C;
-  border-radius: 12px 12px 0px 0px;
 }
 
 h2 {
