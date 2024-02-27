@@ -14,11 +14,11 @@ for (let i = 0; i < lists.length; i++) {
     this.style.border = "8px solid white";
     this.style.padding = "8px";
 });
-}
+};
 
 header.addEventListener("mouseover", function() {
   header.style.cursor = "pointer";
-})
+});
 
 let isHeaderChanged = false;
 
@@ -30,4 +30,4 @@ header.addEventListener("click", function() {
     header.textContent = "IT'S ME, KYLE.";
     isHeaderChanged = true;
   }
-})
+});
