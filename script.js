@@ -1,5 +1,6 @@
 const lists = document.getElementsByClassName("list-component");
 const header = document.getElementById("main-header");
+const headerText = document.getElementById("header-text")
 
 for (let i = 0; i < lists.length; i++) {
   lists[i].addEventListener("mouseover", function() {
@@ -13,6 +14,7 @@ for (let i = 0; i < lists.length; i++) {
     this.style.transition = "transform 0.7s ease"
     this.style.border = "8px solid white";
     this.style.padding = "8px";
+
 });
 };
 
@@ -21,13 +23,14 @@ header.addEventListener("mouseover", function() {
 });
 
 let isHeaderChanged = false;
+let headerContent = header.innerHTML;
 
 header.addEventListener("click", function() { 
   if (isHeaderChanged) {
-    header.textContent = "HELLO, WORLD!"
+    headerText.textContent = "HELLO, WORLD!";
     isHeaderChanged = false;
   } else {
-    header.textContent = "IT'S ME, KYLE.";
+    headerText.textContent = "IT'S ME, KYLE.";
     isHeaderChanged = true;
   }
 });

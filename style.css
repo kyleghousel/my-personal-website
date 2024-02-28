@@ -13,18 +13,40 @@ body {
   flex-direction: column;
 }
 
-h1 {
+#main-header {
   color: #102F48;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #E0E0E0;
   padding: 10px 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header {
+#main-header h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-left: 1em;
+}
+
+#main-header #prof-pic {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  display: block;
+  float: right;
+  margin-right: 1em;
+}
+
+.headers {
   color: #102F48;
   background-color: #DDFE5C;
   border-radius: 12px 12px 0px 0px;
@@ -33,7 +55,7 @@ h1 {
 #content {
   padding-top: 6em;
   padding-bottom: 20px;
-  width: 1200px;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,6 +75,7 @@ h2 {
   border-radius: 24px;
   background-color: white;
   width: 100%;
+  
 }
 
 #bio {
@@ -133,4 +156,17 @@ a:hover {
 .contact-link {
   color: #102F48;
   text-decoration: underline;
+}
+
+h5 {
+  text-align: center;
+  color: #102F48;
+  font-size: larger;
+  padding: 12px;
+}
+
+#embedded-website iframe {
+  position: relative;
+  width: 50em;
+  height: 50em;
 }
